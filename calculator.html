@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>calculator</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="input" id="input">0</div>
+        <div class="buttons">
+          <div class="operators">
+            <div data-ops="plus">+</div>
+            <div data-ops="minus">-</div>
+            <div data-ops="times">&times;</div>
+            <div data-ops="divided by" >&divide;</div>
+          </div>
+          <div class="leftPanel">
+            <div class="numbers">
+              <div  data-num="7">7</div>
+              <div  data-num="8">8</div>
+              <div  data-num="9">9</div>
+            </div>
+            <div class="numbers">
+              <div  data-num="4">4</div>
+              <div  data-num="5">5</div>
+              <div  data-num="6">6</div>
+            </div>
+            <div class="numbers">
+              <div  data-num="1">1</div>
+              <div  data-num="2">2</div>
+              <div  data-num="3">3</div>
+            </div>
+            <div class="numbers">
+              <div  data-num="0">0</div>
+              <div data-num=".">.</div>
+              <div class="clear" id="clear">C</div>
+            </div>
+          </div>
+          <div class="equal" id="result" data-result="">=</div>
+        </div>
+      </div>
+     <script src="main.js"></script>
+</body>
+</html>
