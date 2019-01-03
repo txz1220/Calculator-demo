@@ -20,16 +20,16 @@ body {
     border: 1px solid #ddd;
     border-radius: 1px;
     height: 60px;
-    width: 355px;
-    padding-right: 15px;
+    width: 376px;
+    padding: auto;
     padding-top: 10px;
     text-align: right;
-    margin-right: 6px;
+    margin: auto;
     font-size: 2.5rem;
     overflow-x: auto;
     transition: all .2s ease-in-out;
   }
-  
+
   .input:hover {
     border: 1px solid #bbb;
     -webkit-box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
@@ -42,7 +42,7 @@ body {
     display: inline-block;
     border: 1px solid #bbb;
     border-radius: 1px;
-    width: 60px;
+    width: 58px;
     text-align: center;
     padding: 10px;
     margin: 20px 4px 10px 0;
@@ -70,7 +70,7 @@ body {
     display: inline-block;
     border: 1px solid #ddd;
     border-radius: 1px;
-    width: 60px;
+    width: 58px;
     text-align: center;
     padding: 10px;
     margin: 10px 4px 10px 0;
@@ -94,9 +94,10 @@ body {
     display: inline-block;
     border: 1px solid #ff9215;
     border-radius: 1px;
-    width: 16%;
+    width: 58px;
+    height: 54px;
     text-align: center;
-    padding: 127px 10px;
+    padding: 127px 9px;
     margin: 10px 6px 10px 0;
     vertical-align: top;
     cursor: pointer;
